@@ -75,8 +75,8 @@ p {
   padding: 120px 60px;
 }
 
-.about-me {
-  padding: 160px 20px;
+.content {
+  padding: 160px 20px 50px;
 }
 
 .about-me-img {
@@ -86,17 +86,23 @@ p {
   margin-top: 80px;
 }
 
-.about-me h1 {
+.content h1 {
   font-family: var(--headings-font);
   font-size: 64px;
   font-weight: 700;
 }
 
-.about-me h2 {
+.content h2 {
   color: var(--prg-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
+}
+
+.content h3 {
+  font-family: var(--paragraph-font);
+  font-weight: 700;
+  font-size: 24px;
 }
 
 @media (max-width: 900px) {
@@ -121,8 +127,7 @@ p {
   .hero {
     padding: 80px 20px;
   }
-
-  .about-me {
+  .content {
     padding: 80px 20px;
     text-align: center;
   }
