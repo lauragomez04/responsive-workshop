@@ -105,6 +105,22 @@ p {
   font-size: 24px;
 }
 
+.bg-color {
+  background-color: var(--bgd-color);
+}
+
+.nav-link {
+  color: var(--prg-color) !important;
+}
+
+.active {
+  color: var(--btn-color) !important;
+}
+
+.navbar-brand {
+  font-family: var(--headings-font);
+}
+
 @media (max-width: 900px) {
   h2 {
     font-size: 54px;
