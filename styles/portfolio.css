@@ -75,6 +75,25 @@ p {
   padding: 120px 60px;
 }
 
+.about-me-img {
+  border: 1px solid var(--btn-color);
+  border-radius: 4px;
+  max-width: 450px;
+}
+
+.about-me h1 {
+  font-family: var(--headings-font);
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.about-me h2 {
+  color: var(--prg-color);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 2;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0 40px;
