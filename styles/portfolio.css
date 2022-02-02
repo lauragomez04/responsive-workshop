@@ -113,6 +113,10 @@ p {
   color: var(--prg-color) !important;
 }
 
+.nav-link:hover {
+  color: var(--btn-color) !important;
+}
+
 .active {
   color: var(--btn-color) !important;
 }
